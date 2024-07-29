@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+    beststore
+  </title>
+<link rel="stylesheet" href="login.css">
+<!-- Code injected by Five-server -->
+  <script async data-id="five-server" data-file="new.html" type="application/javascript" src="/fiveserver.js"></script>
+  </head>
+  <script>
+    function myFunction() {
+  var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+  </script>
+<body><div>
+    <h1 id="title"style="text-align: left;font-size: 70px;">Login</h1></div>
+    <div class="container">
+        <div class="welcome">
+          <h1>Welcome</h1>
+          <h1>TO<br> LOGIN</h1>
+        </div>
+        <div class="login">    
+          <div class="inputBox">
+            <form name="form1" autocomplete="off">
+            <input type="text" id="uname" name="uname" placeholder="USER NAME" size="20px" required>
+            <br><br>
+            <input type="text" id="uname" name="uname" placeholder="Enter your email" size="20px"required><br><br>
+            <input type="password" id="password"name="password" placeholder="Enter your password" maxlength="10" size="25px" required><br><br>
+            <input type="checkbox" onclick="myFunction()">Show Password
+
+            <h2>
+              <button type="submit" id="login" onclick="check()" value="submit">Verify</button>
+            <button type="submit" id="login" onclick="check()"><a href="log.html">Login</a></button><br></h2>
+           <h4> if you are a new user?</h4><button type="button" id="login1">
+            <a href="signup.html">Sign up</a></button></h4></form>
+          </div> 
+        </div> 
+    </div>
+    <script src="login.js"></script>
+  </form>
+</body>
+</html>
