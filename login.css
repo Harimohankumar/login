@@ -1,0 +1,117 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    justify-content: space-around;
+    color: black;
+}
+body{
+    background: linear-gradient(to right,#3348b1,#c94761);
+    text-align: center;
+    justify-content:space-around;
+     width:70%;
+   flex-direction: column;
+   min-height: 100%;
+   position: relative;
+   display: flex;
+   align-items: center;
+}
+#title{
+    text-align: center;
+    margin-left: 500px;
+}
+.h1{
+    text-align: center;
+}
+.welcome{
+    color: white;
+    flex-wrap: wrap;
+    text-align: center;
+  justify-content: center;
+  font-size: xx-large;
+    height: 300px;
+    width: 450px;
+    top: 30px;
+    background: linear-gradient(#db0832);
+    border-top: 100px;
+    margin-top: 100px;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 110%;
+    background-color: transparent;
+    background: linear-gradient(to left,#2a44c7,#e92950);
+    display: flex;
+    margin-top: 50px;
+    border-radius: 50px;
+    margin-left: 400px;
+}
+.login{
+      position: relative;
+    left: 0px;
+    padding: 60px;
+}
+#email, #uname, #password{
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+    width: 320px;
+    color: white;
+    box-shadow: 0px 0px 88px 0px black;
+}
+
+#login{
+    border: 1px solid black;
+    padding: 10px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: white;
+}
+#login1{
+    border: 1px solid black;
+    padding: 10px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: white;
+}
+input{
+    outline: none;
+}
+
+button:hover{
+    box-shadow: 0px 0px 20px 0px black;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    size: 40px;
+    width: 80px;
+}
+#login,#login1{
+    border: 2px solid black;
+    background-color:transparent;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 120px;
+}
+::-webkit-input-placeholder{
+    color: aliceblue;
+    transition: opacity .2ease-in-out;
+}
+:focus::-webkit-input-placeholder{
+    opacity: 0.5;
+}
+#login:hover,#login1:hover{
+    border: 2px solid black;
+    background-color:transparent;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 120px;
+    color: white;
+}
